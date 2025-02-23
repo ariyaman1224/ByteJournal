@@ -1,9 +1,8 @@
-import "./App.css";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div>
-      <h1>HI THis is the starting of makeing my blog App</h1>
+    <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 ">
+      <Navbar />
     </div>
   );
 }
